@@ -1,0 +1,28 @@
+{
+    "orders":[
+        {
+            "orderNumber": "12345",
+            "dueDate": "Nov 14, 2018",
+            "customerName": "NavTech",
+            "customerAddress": "9G , 9th Floor,2-48/5/6,Vaishnavi Cynosure,Opp: Urdu University,Gachibowli,Hyderabad,Telangana,India 500032",
+            "customerPhone": "8080909060",
+            "orderTotal": 5
+        },
+        {
+            "orderNumber": "123456",
+            "dueDate": "Nov 15, 2018",
+            "customerName": "Prasad Reddy",
+            "customerAddress": "Hyderabad",
+            "customerPhone": "9090909090",
+            "orderTotal": 3
+        },
+        {
+            "orderNumber": "1234567",
+            "dueDate": "Nov 16, 2018",
+            "customerName": "Vara Prasad",
+            "customerAddress": "Hyderabad",
+            "customerPhone": "9060603020",
+            "orderTotal": 2
+        }
+    ]
+}
