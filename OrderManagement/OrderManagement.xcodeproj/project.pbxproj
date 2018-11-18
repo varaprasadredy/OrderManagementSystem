@@ -91,7 +91,6 @@
 				F93C15BC219E618C00E44B73 /* Utility */,
 				F93C15B2219E4D2400E44B73 /* Extensions */,
 				F93C15A4219E4C0600E44B73 /* Main.storyboard */,
-				F93C15B8219E5B0A00E44B73 /* RoundedTextField.swift */,
 				4FD21075219EE97800B1ACDD /* Orders.json */,
 				F93C15A7219E4C0800E44B73 /* Assets.xcassets */,
 				F93C15A9219E4C0800E44B73 /* LaunchScreen.storyboard */,
@@ -121,6 +120,7 @@
 		F93C15BC219E618C00E44B73 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				F93C15B8219E5B0A00E44B73 /* RoundedTextField.swift */,
 				F93C15BD219E625100E44B73 /* Constants.swift */,
 				F93C15C421A01B8D00E44B73 /* Utility.swift */,
 			);
