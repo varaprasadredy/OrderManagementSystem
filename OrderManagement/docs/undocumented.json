@@ -1,0 +1,488 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/AppDelegate.swift",
+      "line": 17,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/AppDelegate.swift",
+      "line": 47,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/AppDelegate.swift",
+      "line": 52,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/AppDelegate.swift",
+      "line": 57,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/AppDelegate.swift",
+      "line": 61,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/AppDelegate.swift",
+      "line": 65,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Extensions/UIButton+helpers.swift",
+      "line": 13,
+      "symbol": "UIButton.setCornerRadius(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Extensions/UIButton+helpers.swift",
+      "line": 17,
+      "symbol": "UIButton.setShadow(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Extensions/UITextField+helpers.swift",
+      "line": 12,
+      "symbol": "TextType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Extensions/UITextField+helpers.swift",
+      "line": 29,
+      "symbol": "UITextField.setCornerRadius(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Extensions/UITextField+helpers.swift",
+      "line": 35,
+      "symbol": "UITextField.setLeftPaddingPoints()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Extensions/UITextField+helpers.swift",
+      "line": 41,
+      "symbol": "UITextField.setRightPaddingPoints(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Extensions/UserDefaults+helpers.swift",
+      "line": 16,
+      "symbol": "UserDefaults.UserDefaultsKeys.isLoggedIn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 30,
+      "symbol": "AddEditOrderViewController.customerNameField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 31,
+      "symbol": "AddEditOrderViewController.customerPhoneNumberField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 32,
+      "symbol": "AddEditOrderViewController.customerAddressField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 33,
+      "symbol": "AddEditOrderViewController.orderDateField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 34,
+      "symbol": "AddEditOrderViewController.titleLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 35,
+      "symbol": "AddEditOrderViewController.totalOrdersLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 36,
+      "symbol": "AddEditOrderViewController.totalOrdersStepper",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 39,
+      "symbol": "AddEditOrderViewController.totalOrders",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 41,
+      "symbol": "AddEditOrderViewController.CompletionHandler",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 43,
+      "symbol": "AddEditOrderViewController.isEditOrder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 45,
+      "symbol": "AddEditOrderViewController.orderModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 47,
+      "symbol": "AddEditOrderViewController.completion",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 49,
+      "symbol": "AddEditOrderViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 86,
+      "symbol": "AddEditOrderViewController.toolbar",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 166,
+      "symbol": "AddEditOrderViewController.touchesBegan(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/AddOrEditOrder/AddEditOrderViewController.swift",
+      "line": 172,
+      "symbol": "AddEditOrderViewController.textFieldShouldReturn(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/Login/LoginViewController.swift",
+      "line": 39,
+      "symbol": "LoginViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/Login/LoginViewController.swift",
+      "line": 87,
+      "symbol": "LoginViewController.touchesBegan(_:with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/Login/LoginViewController.swift",
+      "line": 94,
+      "symbol": "LoginViewController.textFieldShouldReturn(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/Orders/OrdersViewController.swift",
+      "line": 23,
+      "symbol": "OrdersViewController.orders",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/Orders/OrdersViewController.swift",
+      "line": 25,
+      "symbol": "OrdersViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/Orders/OrdersViewController.swift",
+      "line": 96,
+      "symbol": "OrdersViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/Orders/OrdersViewController.swift",
+      "line": 106,
+      "symbol": "OrdersViewController.tableView(_:heightForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/Orders/OrdersViewController.swift",
+      "line": 110,
+      "symbol": "OrdersViewController.tableView(_:estimatedHeightForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/Orders/OrdersViewController.swift",
+      "line": 114,
+      "symbol": "OrdersViewController.tableView(_:canEditRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/Orders/OrdersViewController.swift",
+      "line": 118,
+      "symbol": "OrdersViewController.tableView(_:commit:forRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Controllers/Orders/OrdersViewController.swift",
+      "line": 122,
+      "symbol": "OrdersViewController.tableView(_:editActionsForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Models/OrdersListModel.swift",
+      "line": 12,
+      "symbol": "OrdersListModel.orderNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Models/OrdersListModel.swift",
+      "line": 13,
+      "symbol": "OrdersListModel.dueDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Models/OrdersListModel.swift",
+      "line": 14,
+      "symbol": "OrdersListModel.customerName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Models/OrdersListModel.swift",
+      "line": 15,
+      "symbol": "OrdersListModel.customerAddress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Models/OrdersListModel.swift",
+      "line": 16,
+      "symbol": "OrdersListModel.customerPhone",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Models/OrdersListModel.swift",
+      "line": 17,
+      "symbol": "OrdersListModel.orderTotal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Models/OrdersListModel.swift",
+      "line": 19,
+      "symbol": "OrdersListModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Models/OrdersListModel.swift",
+      "line": 22,
+      "symbol": "OrdersListModel.init(withDictionary:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Views/OrdersCell/OrdersCell.swift",
+      "line": 15,
+      "symbol": "OrdersCell.customerName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Views/OrdersCell/OrdersCell.swift",
+      "line": 16,
+      "symbol": "OrdersCell.customerPhone",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Views/OrdersCell/OrdersCell.swift",
+      "line": 17,
+      "symbol": "OrdersCell.customerAddress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Views/OrdersCell/OrdersCell.swift",
+      "line": 18,
+      "symbol": "OrdersCell.orderNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Views/OrdersCell/OrdersCell.swift",
+      "line": 19,
+      "symbol": "OrdersCell.dueDate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Views/OrdersCell/OrdersCell.swift",
+      "line": 20,
+      "symbol": "OrdersCell.ordersCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Views/OrdersCell/OrdersCell.swift",
+      "line": 22,
+      "symbol": "OrdersCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/MVC/Views/OrdersCell/OrdersCell.swift",
+      "line": 27,
+      "symbol": "OrdersCell.setSelected(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Utility/Constants.swift",
+      "line": 18,
+      "symbol": "Constants.Internet.noInternetTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Utility/Constants.swift",
+      "line": 19,
+      "symbol": "Constants.Internet.noInternetMsg",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Utility/Constants.swift",
+      "line": 23,
+      "symbol": "Constants.Login.loginFailedTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Utility/Constants.swift",
+      "line": 24,
+      "symbol": "Constants.Login.emailErrorMsg",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Utility/Constants.swift",
+      "line": 25,
+      "symbol": "Constants.Login.passwordErrorMsg",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Utility/Constants.swift",
+      "line": 31,
+      "symbol": "Constants.Error.errorTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Utility/Constants.swift",
+      "line": 32,
+      "symbol": "Constants.Error.errorMsg",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Utility/RoundedTextField.swift",
+      "line": 12,
+      "symbol": "RoundedTextField",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Utility/RoundedTextField.swift",
+      "line": 13,
+      "symbol": "RoundedTextField.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Utility/Utility.swift",
+      "line": 12,
+      "symbol": "Utility",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement/OrderManagement/Utility/Utility.swift",
+      "line": 93,
+      "symbol": "Utility.loadJson(filename:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ashok/Desktop/Prasad/OrderManagement_Git/OrderManagementSystem/OrderManagement"
+}

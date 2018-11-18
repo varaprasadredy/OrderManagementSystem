@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AddEditOrderViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/AddEditOrderViewController" class="dashAnchor"></a>
+    <a title="AddEditOrderViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (41% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AddEditOrderViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AddEditOrderViewController.html">AddEditOrderViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginViewController.html">LoginViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrdersCell.html">OrdersCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrdersListModel.html">OrdersListModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrdersViewController.html">OrdersViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RoundedTextField.html">RoundedTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Utility.html">Utility</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/TextType.html">TextType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults.html">UserDefaults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults/UserDefaultsKeys.html">– UserDefaultsKeys</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Constants.html">Constants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Constants/Internet.html">– Internet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Constants/Login.html">– Login</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Constants/Error.html">– Error</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AddEditOrderViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">AddEditOrderViewController</span> <span class="p">:</span> <span class="kt">UIViewController</span></code></pre>
+
+                </div>
+              </div>
+            <p>This AddEditOrderViewController is used for Add or Edit the Order Details.</p>
+<h2 id='ui-properties' class='heading'>UI Properties</h2>
+
+<ul>
+<li>Customer Name Text Field</li>
+<li>Customer Phone Number Text Field</li>
+<li>Customer Address Text Field</li>
+<li>Order Date Text Field</li>
+<li>Total Order Stepper</li>
+<li>Cancel Button</li>
+<li>Done Button</li>
+<li>Title Label</li>
+<li>Orders Count Label</li>
+</ul>
+<h2 id='written-and-used-methods' class='heading'>Written and Used Methods</h2>
+
+<ol>
+<li><strong>doneAction()</strong> : is used for check the validation and save the orders data.</li>
+<li><strong>cancelAction()</strong> : This method is used for dismiss the view controller.</li>
+<li><strong>totalOrdersStepperAction()</strong> : This method is used for increase or decrease the total orders.</li>
+</ol>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)customerNameField"></a>
+                    <a name="//apple_ref/swift/Property/customerNameField" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)customerNameField">customerNameField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">customerNameField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)customerPhoneNumberField"></a>
+                    <a name="//apple_ref/swift/Property/customerPhoneNumberField" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)customerPhoneNumberField">customerPhoneNumberField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">customerPhoneNumberField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)customerAddressField"></a>
+                    <a name="//apple_ref/swift/Property/customerAddressField" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)customerAddressField">customerAddressField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">customerAddressField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)orderDateField"></a>
+                    <a name="//apple_ref/swift/Property/orderDateField" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)orderDateField">orderDateField</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">orderDateField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)titleLabel"></a>
+                    <a name="//apple_ref/swift/Property/titleLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)titleLabel">titleLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">titleLabel</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)totalOrdersLabel"></a>
+                    <a name="//apple_ref/swift/Property/totalOrdersLabel" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)totalOrdersLabel">totalOrdersLabel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">totalOrdersLabel</span><span class="p">:</span> <span class="kt">UILabel</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)totalOrdersStepper"></a>
+                    <a name="//apple_ref/swift/Property/totalOrdersStepper" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(py)totalOrdersStepper">totalOrdersStepper</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">totalOrdersStepper</span><span class="p">:</span> <span class="kt">UIStepper</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15OrderManagement07AddEditA14ViewControllerC11totalOrdersSivp"></a>
+                    <a name="//apple_ref/swift/Property/totalOrders" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15OrderManagement07AddEditA14ViewControllerC11totalOrdersSivp">totalOrders</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">totalOrders</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15OrderManagement07AddEditA14ViewControllerC17CompletionHandlera"></a>
+                    <a name="//apple_ref/swift/Alias/CompletionHandler" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15OrderManagement07AddEditA14ViewControllerC17CompletionHandlera">CompletionHandler</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">typealias</span> <span class="kt">CompletionHandler</span> <span class="o">=</span> <span class="p">(</span><span class="n">_</span> <span class="nv">order</span><span class="p">:</span> <span class="kt"><a href="../Classes/OrdersListModel.html">OrdersListModel</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15OrderManagement07AddEditA14ViewControllerC02isdA0Sbvp"></a>
+                    <a name="//apple_ref/swift/Property/isEditOrder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15OrderManagement07AddEditA14ViewControllerC02isdA0Sbvp">isEditOrder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isEditOrder</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15OrderManagement07AddEditA14ViewControllerC10orderModelAA010OrdersListH0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/orderModel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15OrderManagement07AddEditA14ViewControllerC10orderModelAA010OrdersListH0CSgvp">orderModel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">orderModel</span><span class="p">:</span> <span class="kt"><a href="../Classes/OrdersListModel.html">OrdersListModel</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15OrderManagement07AddEditA14ViewControllerC10completionyAA15OrdersListModelCSgcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/completion" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15OrderManagement07AddEditA14ViewControllerC10completionyAA15OrdersListModelCSgcSgvp">completion</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">completion</span><span class="p">:</span> <span class="kt">AddEditOrderViewController</span><span class="o">.</span><span class="kt"><a href="../Classes/AddEditOrderViewController.html#/s:15OrderManagement07AddEditA14ViewControllerC17CompletionHandlera">CompletionHandler</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15OrderManagement07AddEditA14ViewControllerC10datePickerSo06UIDateH0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/datePicker" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15OrderManagement07AddEditA14ViewControllerC10datePickerSo06UIDateH0Cvp">datePicker</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Date Picker for Order Due Date</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">lazy</span> <span class="k">var</span> <span class="nv">datePicker</span><span class="p">:</span> <span class="kt">UIDatePicker</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15OrderManagement07AddEditA14ViewControllerC13dateFormatterSo06NSDateH0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/dateFormatter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15OrderManagement07AddEditA14ViewControllerC13dateFormatterSo06NSDateH0Cvp">dateFormatter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Date Formatter</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">lazy</span> <span class="k">var</span> <span class="nv">dateFormatter</span><span class="p">:</span> <span class="kt">DateFormatter</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15OrderManagement07AddEditA14ViewControllerC7toolbarSo9UIToolbarCvp"></a>
+                    <a name="//apple_ref/swift/Property/toolbar" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15OrderManagement07AddEditA14ViewControllerC7toolbarSo9UIToolbarCvp">toolbar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">lazy</span> <span class="k">var</span> <span class="nv">toolbar</span><span class="p">:</span> <span class="kt">UIToolbar</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)cancelPressed:"></a>
+                    <a name="//apple_ref/swift/Method/cancelPressed(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)cancelPressed:">cancelPressed(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method is used for dismiss the date picker view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">cancelPressed</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIBarButtonItem</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)donePressed:"></a>
+                    <a name="//apple_ref/swift/Method/donePressed(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)donePressed:">donePressed(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method is used for get the date form date picker</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">donePressed</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIBarButtonItem</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)doneAction"></a>
+                    <a name="//apple_ref/swift/Method/doneAction()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)doneAction">doneAction()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This metho is used for check the validation and save the orders data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
+<span class="kd">func</span> <span class="nf">doneAction</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)cancelAction:"></a>
+                    <a name="//apple_ref/swift/Method/cancelAction(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)cancelAction:">cancelAction(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Dismiss view controller</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
+<span class="kd">func</span> <span class="nf">cancelAction</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIButton</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)totalOrdersStepperAction:"></a>
+                    <a name="//apple_ref/swift/Method/totalOrdersStepperAction(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)totalOrdersStepperAction:">totalOrdersStepperAction(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method is used for increase or decrease the total orders.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
+<span class="kd">func</span> <span class="nf">totalOrdersStepperAction</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIStepper</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:15OrderManagement07AddEditA14ViewControllerC20setCompletionHandler7handleryyAA15OrdersListModelCSgc_tF"></a>
+                    <a name="//apple_ref/swift/Method/setCompletionHandler(handler:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:15OrderManagement07AddEditA14ViewControllerC20setCompletionHandler7handleryyAA15OrdersListModelCSgc_tF">setCompletionHandler(handler:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method is used for pass the data or update the data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setCompletionHandler</span><span class="p">(</span><span class="nv">handler</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kt"><a href="../Classes/AddEditOrderViewController.html#/s:15OrderManagement07AddEditA14ViewControllerC17CompletionHandlera">CompletionHandler</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)touchesBegan:withEvent:"></a>
+                    <a name="//apple_ref/swift/Method/touchesBegan(_:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@OrderManagement@objc(cs)AddEditOrderViewController(im)touchesBegan:withEvent:">touchesBegan(_:with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">touchesBegan</span><span class="p">(</span><span class="n">_</span> <span class="nv">touches</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">UITouch</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">with</span> <span class="nv">event</span><span class="p">:</span> <span class="kt">UIEvent</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UITextFieldDelgate%20Methods"></a>
+                <a name="//apple_ref/swift/Section/UITextFieldDelgate Methods" class="dashAnchor"></a>
+                <a href="#/UITextFieldDelgate%20Methods">
+                  <h3 class="section-name">UITextFieldDelgate Methods</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@OrderManagement@objc(cs)AddEditOrderViewController(im)textFieldShouldReturn:"></a>
+                    <a name="//apple_ref/swift/Method/textFieldShouldReturn(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@OrderManagement@objc(cs)AddEditOrderViewController(im)textFieldShouldReturn:">textFieldShouldReturn(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textFieldShouldReturn</span><span class="p">(</span><span class="n">_</span> <span class="nv">textField</span><span class="p">:</span> <span class="kt">UITextField</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-11-18)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
